@@ -6,6 +6,7 @@ import Services from "@/components/Services";
 import Countries from "@/components/Countries";
 import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
+import TopAgency from "@/components/TopAgency";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ const Index = () => {
         <Countries />
         <Process />
         <Testimonials />
+        <TopAgency />
         <FAQ />
         <CTA />
       </main>
