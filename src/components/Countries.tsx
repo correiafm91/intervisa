@@ -61,14 +61,21 @@ const Countries = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {countryData.map((country, index) => (
-            <Card key={index} className={`overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 ${country.color}`}>
+            <Card 
+              key={index} 
+              className={`overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 ${country.color} opacity-0 animate-fade-in`}
+              style={{ animationDelay: `${index * 150}ms`, animationFillMode: 'forwards' }}
+            >
               <div className="relative h-48 overflow-hidden border-4 border-intervisa">
                 <img 
                   src={country.imageUrl} 
                   alt={country.altText}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
-                <div className="absolute top-4 right-4 text-4xl" aria-hidden="true">
+                <div 
+                  className="absolute top-4 right-4 text-5xl flag-emoji transform hover:scale-110 transition-transform duration-300 animate-float shadow-emoji" 
+                  aria-hidden="true"
+                >
                   {country.flag}
                 </div>
               </div>
