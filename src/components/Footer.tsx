@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
             <h3 className="text-2xl font-bold mb-4">
               <span className="text-intervisa">Inter</span>visa
             </h3>
             <p className="text-gray-400 mb-4 max-w-md">
               Especialistas em serviços de assessoria para vistos internacionais, 
-              ajudando pessoas a realizarem seus sonhos ao redor do mundo desde 2010.
+              ajudando pessoas a realizarem seus sonhos ao redor do mundo desde 2020.
             </p>
           </div>
           <div>
@@ -22,14 +22,6 @@ const Footer = () => {
               <li><a href="#countries" className="text-gray-400 hover:text-intervisa transition-colors">Países</a></li>
               <li><a href="#process" className="text-gray-400 hover:text-intervisa transition-colors">Processo</a></li>
               <li><a href="#faq" className="text-gray-400 hover:text-intervisa transition-colors">FAQ</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contato</h4>
-            <ul className="space-y-2">
-              <li className="text-gray-400">contato@intervisa.com</li>
-              <li className="text-gray-400">+55 (11) 9999-9999</li>
-              <li className="text-gray-400">Av. Paulista, 1000 - São Paulo</li>
             </ul>
           </div>
         </div>

@@ -16,7 +16,7 @@ const CTA = () => {
             especializada está pronta para agendar sua entrevista no consulado mais próximo de você.
           </p>
           <Button className="bg-white text-intervisa hover:bg-gray-100 text-lg px-8 py-6 shadow-lg">
-            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <a href="https://ig.me/m/intervisabr" target="_blank" rel="noopener noreferrer" className="flex items-center">
               Emitir meu visto
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>

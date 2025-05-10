@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild className="bg-intervisa hover:bg-intervisa-dark text-white px-8 py-6 text-lg">
-                <a href="#cta">
+                <a href="https://ig.me/m/intervisabr" target="_blank" rel="noopener noreferrer">
                   Quero meu visto
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
@@ -31,8 +31,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl animate-float">
               <img 
-                src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" 
-                alt="Paisagem montanhosa nos Estados Unidos" 
+                src="https://i.postimg.cc/pr5jhnMg/A-silhouetted-New-York-City-scene-bathed-in-natural-earth-tones-utilizing-backlighting-with-a-light.jpg" 
+                alt="Paisagem de Nova York, Estados Unidos" 
                 className="w-full h-auto rounded-lg"
               />
             </div>

@@ -15,25 +15,25 @@ const countryData = [
     name: "Estados Unidos",
     description: "Vistos de turismo (B1/B2), estudo (F1), trabalho (H1B) e outros.",
     flag: "🇺🇸",
-    imageUrl: "https://images.unsplash.com/photo-1426604966848-d7adac402bff",
-    altText: "Paisagem montanhosa do Grand Canyon",
-    color: "border-blue-500",
+    imageUrl: "https://i.postimg.cc/pr5jhnMg/A-silhouetted-New-York-City-scene-bathed-in-natural-earth-tones-utilizing-backlighting-with-a-light.jpg",
+    altText: "Paisagem de Nova York, Estados Unidos",
+    color: "border-intervisa",
   },
   {
     name: "Canadá",
     description: "Vistos de visitante, estudo, trabalho e programas de imigração.",
     flag: "🇨🇦",
-    imageUrl: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
-    altText: "Paisagem do Lago Moraine no Canadá",
-    color: "border-red-500",
+    imageUrl: "https://i.postimg.cc/Znm9Rsjy/A-bright-and-vibrant-image-of-Vancouver-bathed-in-gentle-soft-light-diffused-shadows-and-subtle.jpg",
+    altText: "Paisagem de Vancouver, Canadá",
+    color: "border-intervisa",
   },
   {
     name: "Reino Unido",
     description: "Vistos de turismo, estudo, negócios e autorizações de trabalho.",
     flag: "🇬🇧",
-    imageUrl: "https://images.unsplash.com/photo-1433086966358-54859d0ed716",
-    altText: "Paisagem rural nas highlands da Escócia",
-    color: "border-blue-700",
+    imageUrl: "https://i.postimg.cc/7Ls8b5V1/A-classic-black-and-white-photograph-of-the-United-Kingdom-employing-a-blurred-bokeh-effect-for-a-s.jpg",
+    altText: "Paisagem em preto e branco do Reino Unido",
+    color: "border-intervisa",
   },
   {
     name: "Austrália",
@@ -41,7 +41,7 @@ const countryData = [
     flag: "🇦🇺",
     imageUrl: "https://images.unsplash.com/photo-1493375366763-3ed5e0e6d8ec",
     altText: "Paisagem da costa australiana com o Twelve Apostles",
-    color: "border-green-500",
+    color: "border-intervisa",
   }
 ];
 
@@ -62,7 +62,7 @@ const Countries = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {countryData.map((country, index) => (
             <Card key={index} className={`overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 ${country.color}`}>
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden border-4 border-intervisa">
                 <img 
                   src={country.imageUrl} 
                   alt={country.altText}
@@ -78,7 +78,7 @@ const Countries = () => {
               </CardHeader>
               <CardFooter>
                 <Button asChild variant="outline" className="border-intervisa text-intervisa hover:bg-intervisa/10">
-                  <a href="#cta">Consultar agora</a>
+                  <a href="https://ig.me/m/intervisabr" target="_blank" rel="noopener noreferrer">Consultar agora</a>
                 </Button>
               </CardFooter>
             </Card>
