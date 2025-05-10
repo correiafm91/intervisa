@@ -14,7 +14,7 @@ const Hero = () => {
             </h1>
             <p className="text-lg md:text-xl text-gray-700">
               Assessoria completa em vistos para Estados Unidos, Canadá, Reino Unido e Austrália com 
-              altas taxas de aprovação e atendimento personalizado.
+              altas taxas de aprovação e processo finalizado em até <span className="font-bold">20 dias</span>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild className="bg-intervisa hover:bg-intervisa-dark text-white px-8 py-6 text-lg">
@@ -31,8 +31,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl animate-float">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
-                alt="Passaporte internacional com vistos" 
+                src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" 
+                alt="Paisagem montanhosa nos Estados Unidos" 
                 className="w-full h-auto rounded-lg"
               />
             </div>

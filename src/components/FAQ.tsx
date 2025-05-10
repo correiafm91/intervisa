@@ -16,12 +16,17 @@ const faqData = [
   {
     question: "Quanto tempo leva o processo de obtenção do visto?",
     answer:
-      "O tempo varia de acordo com o país e o tipo de visto solicitado. Em geral, o processo pode levar de 2 semanas a 3 meses, dependendo da disponibilidade de datas para entrevista no consulado e do tempo de processamento. Nossa equipe trabalha para agilizar o processo sempre que possível.",
+      "Com a Intervisa, o processo completo leva até 20 dias, desde a contratação até a emissão do visto. Trabalhamos com eficiência para garantir que seu visto seja processado o mais rápido possível, respeitando os prazos de cada consulado.",
   },
   {
     question: "Preciso falar inglês para a entrevista de visto?",
     answer:
-      "Embora seja recomendável, não é obrigatório para todos os tipos de visto. Para vistos de turismo, um conhecimento básico pode ser suficiente. Para vistos de estudo ou trabalho, os requisitos podem ser mais exigentes. Oferecemos preparação específica para cada situação, incluindo simulações de entrevista.",
+      "Não é necessário falar inglês para a entrevista. As entrevistas são realizadas nos consulados brasileiros, onde há atendimento em português. Nossa equipe também prepara você completamente para a entrevista no seu idioma nativo.",
+  },
+  {
+    question: "Onde são realizadas as entrevistas de visto?",
+    answer:
+      "As entrevistas são realizadas em consulados brasileiros, incluindo: Embaixada em Brasília, Consulado-Geral em Porto Alegre, Recife, Rio de Janeiro e São Paulo. Agendamos sua entrevista no local mais próximo de sua residência para sua conveniência.",
   },
   {
     question: "A Intervisa garante a aprovação do meu visto?",
@@ -36,7 +41,7 @@ const faqData = [
   {
     question: "Vocês agendam a entrevista no consulado?",
     answer:
-      "Sim, realizamos todo o agendamento para você, buscando as melhores datas disponíveis e preparando toda a documentação necessária para o dia da entrevista.",
+      "Sim, realizamos todo o agendamento para você, buscando as melhores datas disponíveis no consulado mais próximo de sua localidade e preparando toda a documentação necessária para o dia da entrevista.",
   },
 ];
 
